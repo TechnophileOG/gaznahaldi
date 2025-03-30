@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="Discover premium-quality organic turmeric from Uttarakhand. Our golden spice offers authentic flavor, medicinal benefits, and traditional goodness. Shop pure, natural turmeric powder direct from the Himalayas.">
+  <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Premium Uttarakhand Turmeric | Organic Turmeric Powder & Benefits</title>
+
+  <!-- SEO Description -->
+  <meta name="description" content="Discover premium-quality organic turmeric from Uttarakhand. Our golden spice offers authentic flavor, medicinal benefits, and traditional goodness. Shop pure, natural turmeric powder direct from the Himalayas.">
+
+  <!-- Preconnect and Preload for Performance Optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+
+  <!-- Header Scripts -->
+  <script id="header-scripts">
+    // This script tag will be replaced with actual scripts.head content
+    if (window.scripts && window.scripts.head) {
+      document.getElementById('header-scripts').outerHTML = window.scripts.head;
+    }
+  </script>
+
+  <!-- Core CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/javascript" src="js/handlebars.min.js"></script>
+
+  <!-- Utilities and Components -->
+  <script defer="" src="js/cdn.min.js"></script>
+  <script defer="" src="js/apexcharts.min.js"></script>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Dynamic Meta Tags -->
+  <meta name="keywords" content="">
+  <meta name="robots" content="">
+  <meta name="google-site-verification" content="">
+  <meta name="baidu-verification" content="">
+  <meta name="yandex-verification" content="">
+  <meta name="bing-verification" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Uttarakhand Golden Turmeric">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="">
+
+  <!-- Font Links -->
+  <link rel="icon" type="image/x-icon" href="">
+
+  <style>
+    /* Global Font Styles */
+    h1, h2, h3, h4, h5, h6, body {
+      font-family: Arial, sans-serif, Inter, system-ui, sans-serif;
+    }
+  </style>
+</head>
+
+<body class="antialiased text-gray-800 min-h-screen flex flex-col">
+  <!-- Skip to main content link for accessibility -->
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+    Skip to main content
+  </a>
+
+  <!-- Main content area -->
+  <main id="main-content" class="flex-1 relative h-full">
+    <div id="RolloutPageContent">
+      <!-- Navbar Section -->
+      <element id="24308eda-7be1-4bcd-a256-05f059728254" data-section-id="24308eda-7be1-4bcd-a256-05f059728254">
+        <htmlcode>
+          <div id="root">
+            <nav id="navbar" class="fixed w-full z-50 top-0 bg-neutral-900 shadow-lg">
+              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                  <!-- Logo -->
+                  <div class="flex items-center">
+                    <img src="images/Logo-150x66.webp" alt="Gaazna Logo" class="h-8 w-auto">
+                  </div>
+
+                  <!-- Navigation Links -->
+
+                  <div class="hidden md:flex items-center space-x-8">
+                    <a href="#hero" class="text-yellow-500 hover:text-yellow-400">Home</a>
+                    <a href="#benefits" class="text-yellow-500 hover:text-yellow-400">Benefits</a>
+                    <a href="#product" class="text-yellow-500 hover:text-yellow-400">Product</a>
+                    <a href="#shop" class="text-yellow-500 hover:text-yellow-400">Shop</a>
+                  </div>
+
+                  <!-- Mobile Menu Button -->
+                  <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-yellow-500 hover:text-yellow-400">
+                      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Mobile Menu -->
+              <div id="mobile-menu" class="hidden md:hidden bg-neutral-900">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                  <a href="#hero" class="block px-3 py-2 text-yellow-500 hover:text-yellow-400">Home</a>
+                  <a href="#benefits" class="block px-3 py-2 text-yellow-500 hover:text-yellow-400">Benefits</a>
+                  <a href="#product" class="block px-3 py-2 text-yellow-500 hover:text-yellow-400">Product</a>
+                  <a href="#shop" class="block px-3 py-2 text-yellow-500 hover:text-yellow-400">Shop</a>
+                </div>
+              </div>
+            </nav>
+
+            <script>
+              const menuBtn = document.getElementById('menu-btn');
+              const mobileMenu = document.getElementById('mobile-menu');
+
+              menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+              });
+
+              // Close mobile menu when clicking a link
+              const mobileLinks = mobileMenu.querySelectorAll('a');
+              mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                  mobileMenu.classList.add('hidden');
+                });
+              });
+            </script>
+          </div>
+        </htmlcode>
+      </element>
+
+      <!-- Hero Section -->
+      <element id="43991752-b35a-4816-b88a-441d97e293de" data-section-id="43991752-b35a-4816-b88a-441d97e293de">
+        <htmlcode>
+          <div id="root">
+            <section id="hero" class="min-h-screen pt-16 bg-neutral-900">
+              <div class="container mx-auto px-4 h-full flex flex-col md:flex-row items-center justify-center">
+                <div class="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0 animate__animated animate__fadeInLeft">
+                  <h1 class="text-4xl md:text-6xl font-bold text-yellow-500 mb-4">Best Quality Turmeric</h1>
+                  <h2 class="text-2xl md:text-3xl text-yellow-400 mb-6">The Turmeric of Uttarakhand</h2>
+                  <p class="text-yellow-100 text-lg mb-8">Premium organic turmeric with high curcumin content (11%), sourced from the pristine heights of Uttarakhand.</p>
+                  <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#shop" class="bg-yellow-500 text-neutral-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-400 transition-all animate__animated animate__pulse animate__infinite">Shop Now</a>
+                    <a href="#benefits" class="border-2 border-yellow-500 text-yellow-500 px-8 py-3 rounded-full font-bold hover:bg-yellow-500 hover:text-neutral-900 transition-all">Learn More</a>
+                  </div>
+                </div>
+
+                <div class="w-full md:w-1/2 relative animate__animated animate__fadeInRight">
+                  <div class="relative w-full max-w-md mx-auto">
+                    <img src="images/IMG-20231015-WA0011-copy.webp" alt="Gaazna Turmeric" class="rounded-lg shadow-2xl">
+                    <div class="absolute -bottom-4 -right-4 bg-yellow-500 text-neutral-900 px-6 py-2 rounded-full font-bold">11% Curcumin</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container mx-auto px-4 mt-12">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                  <div class="bg-neutral-800 p-4 rounded-lg">
+                    <h3 class="text-yellow-500 font-bold">100% Organic</h3>
+                    <p class="text-yellow-100 text-sm">Naturally Grown</p>
+                  </div>
+                  <div class="bg-neutral-800 p-4 rounded-lg">
+                    <h3 class="text-yellow-500 font-bold">High Altitude</h3>
+                    <p class="text-yellow-100 text-sm">Pure Mountain Growth</p>
+                  </div>
+                  <div class="bg-neutral-800 p-4 rounded-lg">
+                    <h3 class="text-yellow-500 font-bold">Lab Tested</h3>
+                    <p class="text-yellow-100 text-sm">Quality Assured</p>
+                  </div>
+                  <div class="bg-neutral-800 p-4 rounded-lg">
+                    <h3 class="text-yellow-500 font-bold">Free Shipping</h3>
+                    <p class="text-yellow-100 text-sm">On All Orders</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </htmlcode>
+      </element>
+
+      <!-- Benefits Section -->
+      <element id="09b35f00-527b-4881-9300-05b1f5feaa8d" data-section-id="09b35f00-527b-4881-9300-05b1f5feaa8d">
+        <htmlcode>
+          <div id="root">
+            <section id="benefits" class="py-20 bg-white">
+              <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-neutral-800 animate__animated animate__fadeInUp">Benefits Of Gaazna Turmeric</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                  <!-- Benefit 1 -->
+                  <div class="bg-yellow-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp">
+                    <div class="bg-yellow-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                      </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-neutral-800">Natural Anti-Inflammatory</h3>
+                    <p class="text-neutral-600">Turmeric's curcumin offers a potent natural anti-inflammatory effect, making it beneficial for combating chronic inflammation.</p>
+                  </div>
+
+                  <!-- Benefit 2 -->
+                  <div class="bg-yellow-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <div class="bg-yellow-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                      </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-neutral-800">Powerful Antioxidant</h3>
+                    <p class="text-neutral-600">Turmeric and curcumin are robust antioxidants, guarding cells against harm from free radicals.</p>
+                  </div>
+
+                  <!-- Benefit 3 -->
+                  <div class="bg-yellow-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <div class="bg-yellow-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                      </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-neutral-800">Effective Pain Relief</h3>
+                    <p class="text-neutral-600">Turmeric is a well-regarded natural solution for pain relief, especially in conditions like osteoarthritis and rheumatoid arthritis.</p>
+                  </div>
+
+                  <!-- Benefit 4 -->
+                  <div class="bg-yellow-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
+                    <div class="bg-yellow-500 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path>
+                      </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-neutral-800">Digestive Wellness</h3>
+                    <p class="text-neutral-600">Turmeric aids digestion by stimulating bile production, alleviating common digestive issues like indigestion and bloating.</p>
+                  </div>
+                </div>
+
+                <div class="text-center mt-12">
+                  <a href="#shop" class="inline-block bg-yellow-500 text-white px-8 py-3 rounded-full font-bold hover:bg-yellow-600 transition-all animate__animated animate__pulse animate__infinite">Experience the Benefits</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </htmlcode>
+      </element>
+
+      <!-- Product Section -->
+      <element id="4e109566-67c7-4e22-9087-c8d7fb29c916" data-section-id="4e109566-67c7-4e22-9087-c8d7fb29c916">
+        <htmlcode>
+          <div id="root">
+            <section id="product" class="py-20 bg-neutral-900">
+              <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                  <div class="animate__animated animate__fadeInLeft">
+                    <div class="relative">
+                      <img src="images/Big.webp" alt="Gaazna Turmeric Product" class="rounded-2xl shadow-2xl w-full">
+                      <div class="absolute -bottom-6 -right-6 bg-yellow-500 px-6 py-3 rounded-full transform rotate-12">
+                        <span class="text-neutral-900 font-bold">Premium Quality</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="animate__animated animate__fadeInRight">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-yellow-500">Our Premium Product</h2>
+
+                    <div class="space-y-6">
+                      <div class="bg-neutral-800 p-6 rounded-xl">
+                        <h3 class="text-xl font-bold mb-2 text-yellow-400">High Curcumin Content</h3>
+                        <p class="text-yellow-100">11% curcumin content - significantly higher than standard turmeric powder available in the market.</p>
+                      </div>
+
+                      <div class="bg-neutral-800 p-6 rounded-xl">
+                        <h3 class="text-xl font-bold mb-2 text-yellow-400">Mother Rhizome</h3>
+                        <p class="text-yellow-100">Made exclusively from mother rhizome, ensuring the highest quality and potency.</p>
+                      </div>
+
+                      <div class="bg-neutral-800 p-6 rounded-xl">
+                        <h3 class="text-xl font-bold mb-2 text-yellow-400">Higher Altitude Growth</h3>
+                        <p class="text-yellow-100">Cultivated in the pristine heights of Uttarakhand, resulting in superior quality and purity.</p>
+                      </div>
+
+                      <div class="flex flex-wrap gap-4 mt-8">
+                        <div class="flex items-center bg-neutral-800 px-4 py-2 rounded-full">
+                          <svg class="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span class="text-yellow-100">100% Organic</span>
+                        </div>
+
+                        <div class="flex items-center bg-neutral-800 px-4 py-2 rounded-full">
+                          <svg class="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span class="text-yellow-100">Lab Tested</span>
+                        </div>
+
+                        <div class="flex items-center bg-neutral-800 px-4 py-2 rounded-full">
+                          <svg class="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                          </svg>
+                          <span class="text-yellow-100">No Additives</span>
+                        </div>
+                      </div>
+
+                      <div class="mt-8">
+                        <a href="#shop" class="inline-block bg-yellow-500 text-neutral-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-400 transition-all animate__animated animate__pulse animate__infinite">Buy Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </htmlcode>
+      </element>
+      <element id="8b2841e9-7370-4631-bc39-bc2e096679c4" data-section-id="8b2841e9-7370-4631-bc39-bc2e096679c4">
+        <htmlcode>
+          <div id="root">
+            <section id="hero" class="pt-20 bg-neutral-900 min-h-screen">
+              <div class="max-w-7xl mx-auto px-4 py-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                  <!-- Product Image -->
+                  <div class="animate__animated animate__fadeIn">
+                    <img src="images/Bottle.png" alt="Uttarakhand Local Product"
+                      class="rounded-lg shadow-2xl w-full max-w-lg mx-auto">
+                  </div>
+
+                  <!-- Product Details -->
+                  <div class="text-white space-y-6 animate__animated animate__fadeInRight">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+                      Pure Uttarakhand <span class="text-yellow-500">Local Products</span>
+                    </h1>
+
+                    <div class="flex items-center space-x-4">
+                      <div class="flex items-center text-yellow-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span class="ml-2 text-white">(4.8/5)</span>
+                      </div>
+                      <span class="text-gray-400">|</span>
+                      <span class="text-gray-300">500+ Reviews</span>
+                    </div>
+
+                    <div class="space-y-4">
+                      <p class="text-xl text-gray-300">
+                        Experience the authentic taste of Uttarakhand with our premium selection of local products,
+                        carefully sourced from the heart of the Himalayas.
+                      </p>
+
+                      <div class="flex items-center space-x-4">
+                        <span class="text-3xl font-bold text-yellow-500">₹499</span>
+                        <span class="text-gray-400 line-through">₹699</span>
+                        <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm">28% OFF</span>
+                      </div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-4">
+                      <button
+                        class="bg-yellow-500 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-400 transition duration-300 animate__animated animate__pulse animate__infinite">
+                        Add to Cart
+                      </button>
+                      <button
+                        class="border-2 border-yellow-500 text-yellow-500 px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 hover:text-black transition duration-300">
+                        Buy Now
+                      </button>
+                    </div>
+
+                    <div class="flex items-center space-x-8 pt-6">
+                      <div class="flex items-center space-x-2">
+                        <i class="fas fa-truck text-yellow-500"></i>
+                        <span class="text-gray-300">Free Shipping</span>
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <i class="fas fa-shield-alt text-yellow-500"></i>
+                        <span class="text-gray-300">100% Authentic</span>
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <i class="fas fa-undo text-yellow-500"></i>
+                        <span class="text-gray-300">Easy Returns</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </htmlcode>
+      </element>
+      <!-- Origin Section -->
+      <element id="8c6d3727-ba1f-4c2c-8736-828e54b9ccd3" data-section-id="8c6d3727-ba1f-4c2c-8736-828e54b9ccd3">
+        <htmlcode>
+          <div id="root">
+            <section id="origin" class="py-20 bg-white">
+              <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-neutral-800 animate__animated animate__fadeInUp">Our Story</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                  <div class="space-y-6 animate__animated animate__fadeInLeft">
+                    <div class="bg-yellow-50 p-6 rounded-xl shadow-lg">
+                      <h3 class="text-2xl font-bold mb-4 text-yellow-700">Research-Based Development</h3>
+                      <p class="text-neutral-700">Gaazna is a research-based product developed through extensive analysis of over 250 samples from Uttarakhand, revealing exceptional curcumin content ranging from 7% to 11%.</p>
+                    </div>
+
+                    <div class="bg-yellow-50 p-6 rounded-xl shadow-lg">
+                      <h3 class="text-2xl font-bold mb-4 text-yellow-700">Scientific Validation</h3>
+                      <p class="text-neutral-700">Our samples were analyzed at CSIR-IHBT Palampur, Government of India Lab, and compared with control varieties from the Indian Institute of Spice Research (IISR-ICAR).</p>
+                    </div>
+
+                    <div class="bg-yellow-50 p-6 rounded-xl shadow-lg">
+                      <h3 class="text-2xl font-bold mb-4 text-yellow-700">Community Engagement</h3>
+                      <p class="text-neutral-700">Commercial farming progresses with active farmer participation, especially women, in the village Dhauntri (Gaazna Patti), supporting local communities and sustainable practices.</p>
+                    </div>
+                  </div>
+
+                  <div class="grid grid-cols-2 gap-4 animate__animated animate__fadeInRight">
+                    <img src="images/IMG-20231015-WA0015-copy.webp" alt="Turmeric Farming" class="rounded-lg shadow-lg">
+                    <img src="images/IMG-20231015-WA0007-copy.webp" alt="Turmeric Processing" class="rounded-lg shadow-lg">
+                    <img src="images/IMG-20231015-WA0008copy.webp" alt="Quality Control" class="rounded-lg shadow-lg">
+                    <img src="images/IMG-20231015-WA0021-copy.webp" alt="Community Impact" class="rounded-lg shadow-lg">
+                  </div>
+                </div>
+
+                <div class="mt-16 text-center">
+                  <div class="inline-flex flex-wrap justify-center gap-4">
+                    <div class="bg-yellow-500 px-6 py-3 rounded-full">
+                      <span class="text-neutral-900 font-bold">100% Organic</span>
+                    </div>
+                    <div class="bg-yellow-500 px-6 py-3 rounded-full">
+                      <span class="text-neutral-900 font-bold">Sustainable Farming</span>
+                    </div>
+                    <div class="bg-yellow-500 px-6 py-3 rounded-full">
+                      <span class="text-neutral-900 font-bold">Community Supported</span>
+                    </div>
+                    <div class="bg-yellow-500 px-6 py-3 rounded-full">
+                      <span class="text-neutral-900 font-bold">Scientifically Tested</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </htmlcode>
+      </element>
+
+      <!-- Shop Section -->
+      <element id="0ad27ec5-b93d-4176-9d69-af7fc19d2b6b" data-section-id="0ad27ec5-b93d-4176-9d69-af7fc19d2b6b">
+        <htmlcode>
+          <div id="root">
+            <section id="shop" class="py-20 bg-neutral-900">
+              <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-yellow-500 animate__animated animate__fadeInUp">Shop Our Products</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <!-- Product Card 1 -->
+                  <div class="bg-neutral-800 rounded-xl overflow-hidden shadow-lg animate__animated animate__fadeInUp">
+                    <img src="images/Bottle.png" alt="Premium Turmeric Powder" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                      <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-xl font-bold text-yellow-500">Premium Turmeric Powder</h3>
+                        <span class="bg-yellow-500 text-neutral-900 px-3 py-1 rounded-full text-sm font-bold">11% Curcumin</span>
+                      </div>
+                      <div class="mb-4">
+                        <span class="text-yellow-400 text-2xl font-bold">₹499</span>
+                        <span class="text-yellow-200 text-sm ml-2">per 250g</span>
+                      </div>
+                      <ul class="text-yellow-100 text-sm mb-6 space-y-2">
+                        <li class="flex items-center">
+                          <svg class="w-4 h-4 mr-2 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                          </svg>
+                          High Curcumin Content
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="w-4 h-4 mr-2 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                          </svg>
+                          Lab Tested Quality
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="w-4 h-4 mr-2 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                          </svg>
+                          100% Organic
+                        </li>
+                      </ul>
+                      <button class="w-full bg-yellow-500 text-neutral-900 py-3 rounded-full font-bold hover:bg-yellow-400 transition-all animate__animated animate__pulse animate__infinite">Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <!-- Product Card 2 -->
+                  <div class="bg-neutral-800 rounded-xl overflow-hidden shadow-lg animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <img src="images/Cream.png" alt="Turmeric Value Pack" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                      <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-xl font-bold text-yellow-500">Heal Fast Cream</h3>
+                        <span class="bg-yellow-500 text-neutral-900 px-3 py-1 rounded-full text-sm font-bold">Best Seller</span>
+                      </div>
+                      <div class="mb-4">
+                        <span class="text-yellow-400 text-2xl font-bold">₹899</span>
+                        <span class="text-yellow-200 text-sm ml-2">per 100g</span>
+                      </div>
+                      <ul class="text-yellow-100 text-sm mb-6 space-y-2">
+                        <li class="flex items-center">
+                          <svg class="w-4 h-4 mr-2 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                          </svg>
+                          Family Pack Size
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="w-4 h-4 mr-2 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                          </svg>
+                          Better Value
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="w-4 h-4 mr-2 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                          </svg>
+                          Free Shipping
+                        </li>
+                      </ul>
+                      <button class="w-full bg-yellow-500 text-neutral-900 py-3 rounded-full font-bold hover:bg-yellow-400 transition-all animate__animated animate__pulse animate__infinite">Add to Cart</button>
+                    </div>
+                  </div>
+
+                  <!-- Product Card 3 -->
+                  <div class="bg-neutral-800 rounded-xl overflow-hidden shadow-lg animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <img src="images/Ziplock.png" alt="Bulk Pack" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                      <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-xl font-bold text-yellow-500">Zip Lock Pack</h3>
+                        <span class="bg-yellow-500 text-neutral-900 px-3 py-1 rounded-full text-sm font-bold">Wholesale</span>
+                      </div>
+                      <div class="mb-4">
+                        <span class="text-yellow-400 text-2xl font-bold">₹1699</span>
+                        <span class="text-yellow-200 text-sm ml-2">per 1kg</span>
+                      </div>
+                      <ul class="text-yellow-100 text-sm mb-6 space-y-2">
+                        <li class="flex items-center">
+                          <svg class="w-4 h-4 mr-2 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                          </svg>
+                          Bulk Quantity
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="w-4 h-4 mr-2 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                          </svg>
+                          Best Price
+                        </li>
+                        <li class="flex items-center">
+                          <svg class="w-4 h-4 mr-2 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                          </svg>
+                          Priority Shipping
+                        </li>
+                      </ul>
+                      <button class="w-full bg-yellow-500 text-neutral-900 py-3 rounded-full font-bold hover:bg-yellow-400 transition-all animate__animated animate__pulse animate__infinite">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-16 text-center">
+                  <p class="text-yellow-100 mb-6">Free shipping on all orders above ₹999</p>
+                  <a href="#contact" class="inline-block bg-yellow-500 text-neutral-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-400 transition-all">Bulk Order Enquiry</a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </htmlcode>
+      </element>
+
+      
+
+      <!-- Footer Section -->
+      <element id="387e896e-a662-4b48-bbaa-dcd39f838e56" data-section-id="387e896e-a662-4b48-bbaa-dcd39f838e56">
+        <htmlcode>
+          <div id="root">
+            <footer id="footer" class="bg-neutral-900 text-yellow-100">
+              <div class="container mx-auto px-4 py-16">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                  <!-- Brand -->
+                  <div class="space-y-4">
+                    <img src="images/Logo-150x66.webp" alt="Gaazna Logo" class="h-12">
+                    <p class="text-sm">Premium quality turmeric from the heights of Uttarakhand, bringing you the best in natural wellness.</p>
+                    <div class="flex space-x-4">
+                      <a href="#" class="text-yellow-500 hover:text-yellow-400">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a href="#" class="text-yellow-500 hover:text-yellow-400">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z">
+                          </path>
+                        </svg>
+                      </a>
+                      <a href="#" class="text-yellow-500 hover:text-yellow-400">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.07 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.849 0-3.204 0-3.584-.012-4.85-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.07 4.849-.07 3.259 0 3.668.014 4.947.072-4.358.2-6.78 2.618-6.98 6.98-1.281.058-1.689.072-4.948.072-3.259 0-3.667-.014-4.947-.072-4.354-.2-6.782-2.618-6.979-6.98-1.281-.059-1.69-.073-4.949-.073-3.259 0-3.668.014-4.948.072-4.354.2-6.78-2.618-6.979-6.98-1.281-.059-1.69-.073-4.947-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z">
+                          </path>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- Quick Links -->
+                  <div>
+                    <h4 class="text-lg font-bold text-yellow-500 mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                      <li><a href="#hero" class="hover:text-yellow-500 transition-colors">Home</a></li>
+                      <li><a href="#benefits" class="hover:text-yellow-500 transition-colors">Benefits</a></li>
+                      <li><a href="#product" class="hover:text-yellow-500 transition-colors">Products</a></li>
+                      <li><a href="#process" class="hover:text-yellow-500 transition-colors">Our Process</a></li>
+                      <li><a href="#shop" class="hover:text-yellow-500 transition-colors">Shop</a></li>
+                    </ul>
+                  </div>
+
+                  <!-- Support -->
+                  <div>
+                    <h4 class="text-lg font-bold text-yellow-500 mb-4">Support</h4>
+                    <ul class="space-y-2">
+                      <li><a href="#" class="hover:text-yellow-500 transition-colors">phone number</a></li>
+                      <li><a href="#" class="hover:text-yellow-500 transition-colors">Phone number</a></li>
+                      <li><a href="#" class="hover:text-yellow-500 transition-colors">Email</a></li>
+                      <li><a href="#" class="hover:text-yellow-500 transition-colors"></a></li>
+                    </ul>
+                  </div>
+
+                  <!-- Newsletter -->
+                  <div>
+                    <h4 class="text-lg font-bold text-yellow-500 mb-4">Newsletter</h4>
+                    <p class="text-sm mb-4">Join Our Community to Support Us and Get Regular Updates</p>
+                    <form class="space-y-2">
+                      <input type="email" placeholder="Enter your email" class="w-full px-4 py-2 rounded-lg bg-neutral-800 border border-neutral-700 focus:outline-none focus:border-yellow-500">
+                      <button type="submit" class="w-full bg-yellow-500 text-neutral-900 px-4 py-2 rounded-lg font-bold hover:bg-yellow-400 transition-all">Subscribe</button>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="border-t border-neutral-800 mt-12 pt-8 text-center">
+                  <p class="text-sm">© 2024 Gaazna. All rights reserved. Made with ❤️ in Uttarakhand</p>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </htmlcode>
+      </element>
+    </div>
+  </main>
+
+  <!-- {bodyScripts} -->
+
+</body>
+
+</html>
